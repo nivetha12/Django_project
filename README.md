@@ -163,7 +163,7 @@ C:.. /myportfolio>py manage.py createsuperuser
 
 this command ask user name and the password which we have to give
 Username:nivi
-password:Exotion@05 (Ecaps)
+password:********
 my admin login is created
 ----------------------------------------------------------------------------------------------------
 Admin.py in Jobs app:
