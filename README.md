@@ -9,6 +9,8 @@ To create a virtual environment you have to install pip3
 
 this command install virtual evnvironment of latest version
 ---------------------------------------------------------
+Virtual Environment creates a seperate library for your Project .Use VE  for better Practice 
+for more understanding about VE visit this blog:https://medium.com/@pinareceaktan/what-is-this-virtual-environments-in-python-and-why-anyone-ever-needs-them-7e3e682f9d2
 after installing VE select any destination where you want your VE and
 
 >cd desktop
@@ -24,7 +26,7 @@ this activates your VE.....
 --------------------------------------------------------------
 to deactivate this VE
 
->myvenv\Scripts\deactivate
+>deactivate
 ----------------------------------------------------------
 to start a project in your virtual env
 
@@ -72,6 +74,7 @@ db.sqlite3-journal
 save this file
 ---------------------------------------------------------------------------------------------------
 HOW TO ADD FILES TO THE GIT USING CMD:
+first time to git -> refer this video to install and learn about git:https://youtu.be/to0VyzFo8h4?list=LLfV70hd0m0I7gQ03EwBEASA 
 first we have to initialize the git (if git is not installed install git )
 
 >cd..
@@ -199,7 +202,8 @@ urlpatterns = [
 this static fun link the url of image to the variable declared in settings.py
 Now the image can be viewed in the admin page.
 ------------------------------------------------------------------------------------------------------
-install postgred sql in your system for db:
+You can also use any Database you  know.....
+install postgred sql in your system for db: 
 ```````````````````````````````````````````
 https://www.youtube.com/watch?v=e1MwsT5FJRQ->installation procedure
 
@@ -336,7 +340,7 @@ you can change the webpage to your requirements. the changes made in home.html a
 ->Footer the copyright and year is added. The year is upto date with the use of python
 in footer->&copy Nivetha {% now "Y" %} the code within curlybraces give the current year (its cool right!)
 ->change the intro section - change the button to email me and add mailto:nivinataliya@gmail.com to href 
-->del all the photocards except one photocard del rem 8
+->del all the photocards except one photocard delete remaining  8
 -> make a for loop :
 
 {% for job in jobs.all %}
